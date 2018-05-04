@@ -1,0 +1,126 @@
+li{list-style: none}
+a{text-decoration: none; color: yellowgreen}
+body{
+    background-image: url("../images/bg2.png");
+}
+#head-title{
+    width: 100%;
+    height: 130px;
+    text-align: center;
+}
+.head-con{
+    width: 85%;
+    height: 100%;
+    display: inline-block;
+}
+.logo{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.logo img{
+    width:100px;
+    height:100px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+}
+.logo h2{
+    line-height: 130px;
+    display: inline-block;
+    vertical-align: top;
+}
+#head-nav{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+.head-nav-con{
+    width: 85%;
+    height: 60px;
+    display: inline-block;
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    background: white;
+}
+.nav li{
+    display: inline-block;
+    line-height: 60px;
+    width: 14%;
+    height: 100%;
+    font-weight: 800;
+    cursor: pointer;
+    background: white;
+    margin-left: -5px;
+}
+.nav li:hover{
+    background: yellowgreen;
+}
+.nav li:hover a{
+    color: white;
+}
+.box{
+    height: 500px;
+    border: 1px solid #ccc;
+    background: rebeccapurple;
+    display: none;
+    margin-top: 50px;
+    width: 100%;
+}
+input{
+    width: 110px;
+    height: 50px;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #cccccc;
+    background: white;
+    color: yellowgreen;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.active{
+    background: yellowgreen;
+    color: white;
+}
+.wrapper{
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    text-align: center;
+}
+#div1{
+    width: 80%;
+    height: 100%;
+    display: inline-block;
+}
+h1{
+    text-align: left;
+}
+.button{
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+}
+#btn{
+     width: 60px;
+     height: 30px;
+     display: block;
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     background: yellowgreen;
+     text-align: center;
+     line-height: 30px;
+     opacity: 1;
+     border-radius: 5px;
+     transition: all 0.5s;
+     cursor: pointer;
+ }
