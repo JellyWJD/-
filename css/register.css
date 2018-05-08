@@ -1,6 +1,6 @@
 #box{
     margin: 50px auto;
-    width: 500px;
+    width: 700px;
     height: 500px;
     text-align: center;
 }
@@ -17,6 +17,9 @@ input{
     font-weight: 800;
     border: 0;
     border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+
 }
 li{list-style: none}
 a{text-decoration: none; color: yellowgreen}
@@ -89,9 +92,18 @@ body{
 }
 .content div span{
     margin-right: 20px;
-    font-size: 20px;
     font-weight: 700;
 }
 h1{
     margin-bottom: 50px;
+}
+.red1,.red2,.red3,.red4{
+    color: red;
+    margin-left: 10px;
+    font-size: 14px;
+    position: absolute;
+    right: 127px;
+    margin-top: 10px;
+    width: 320px;
+    text-align: left;
 }

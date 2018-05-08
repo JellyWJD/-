@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>美味城镇</title>
     <link rel="stylesheet" href="./css/默认.css">
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/menu-zerogrid.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
     <script src="./js/jquery-3.2.1.js"></script>
 </head>
 <body>
+<div class="mask"><img id="img" src="" width="100%" height="100%"></div>
 <div id="head-title">
     <div class="head-con">
         <div class="logo">
@@ -21,9 +23,8 @@
     <div class="nav">
         <li style="margin-left: 0"><a href="index.html">Home</a></li>
         <li><a href="menu.html">美食菜单</a></li>
-        <li><a href="post.html">美食帖子</a></li>
         <li><a href="illustration.html">美食图鉴</a></li>
-        <li><a href="">关注我们</a></li>
+        <li><a href="about.html">关注我们</a></li>
         <li><a href="register.html">登录/注册</a></li>
     </div>
 </div>
@@ -36,76 +37,76 @@
                         <div class="wrap-col">
                             <h3>意大利面食</h3>
                             <div class="post">
-                                <a href="#"><img src="images/1.jpg"/></a>
+                                <img class="img" src="images/1.png"/>
                                 <div class="wrapper">
-                                    <h5><a href="#">Lorem ipsum dolor</a></h5>
-                                    <span>$25 - $26</span>
+                                    <h5><a href="#">意大利面</a></h5>
+                                    <span>￥10 - ￥15</span>
                                 </div>
                             </div>
                             <div class="post">
-                                <a href="#"><img src="images/2.jpg"/></a>
+                                <img class="img" src="images/2.png"/>
                                 <div class="wrapper">
-                                    <h5><a href="#">Lorem ipsum dolor</a></h5>
-                                    <span>$25 - $26</span>
+                                    <h5><a href="#">肉烩面</a></h5>
+                                    <span>￥12 - ￥18</span>
                                 </div>
                             </div>
                             <div class="post">
-                                <a href="#"><img src="images/3.jpg"/></a>
+                                <img class="img" src="images/3.png"/>
                                 <div class="wrapper">
-                                    <h5><a href="#">Lorem ipsum dolor</a></h5>
-                                    <span>$25 - $26</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-1-3">
-                        <div class="wrap-col">
-                            <h3>能量套餐</h3>
-                            <div class="post">
-                                <a href="#"><img src="images/14.jpg"/></a>
-                                <div class="wrapper">
-                                    <h5><a href="#">Lorem ipsum dolor</a></h5>
-                                    <span>$25 - $26</span>
-                                </div>
-                            </div>
-                            <div class="post">
-                                <a href="#"><img src="images/8.jpg"/></a>
-                                <div class="wrapper">
-                                    <h5><a href="#">Lorem ipsum dolor</a></h5>
-                                    <span>$25 - $26</span>
-                                </div>
-                            </div>
-                            <div class="post">
-                                <a href="#"><img src="images/7.jpg"/></a>
-                                <div class="wrapper">
-                                    <h5><a href="#">Lorem ipsum dolor</a></h5>
-                                    <span>$25 - $26</span>
+                                    <h5><a href="#">番茄面</a></h5>
+                                    <span>￥12 - ￥18</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-1-3">
                         <div class="wrap-col">
-                            <h3>沙拉</h3>
+                            <h3>精致咖啡</h3>
                             <div class="post">
-                                <a href="#"><img src="images/13.jpg"/></a>
+                                <img class="img" src="images/4.png"/>
                                 <div class="wrapper">
-                                    <h5><a href="#">Lorem ipsum dolor</a></h5>
-                                    <span>$25 - $26</span>
+                                    <h5><a href="#">拿铁咖啡</a></h5>
+                                    <span>￥15</span>
                                 </div>
                             </div>
                             <div class="post">
-                                <a href="#"><img src="images/4.jpg"/></a>
+                                <img class="img" src="images/5.png"/>
                                 <div class="wrapper">
-                                    <h5><a href="#">Lorem ipsum dolor</a></h5>
-                                    <span>$25 - $26</span>
+                                    <h5><a href="#">卡布奇洛</a></h5>
+                                    <span>￥15</span>
                                 </div>
                             </div>
                             <div class="post">
-                                <a href="#"><img src="images/5.jpg"/></a>
+                                <img class="img" src="images/6.png"/>
                                 <div class="wrapper">
-                                    <h5><a href="#">Lorem ipsum dolor</a></h5>
-                                    <span>$25 - $26</span>
+                                    <h5><a href="#">摩卡咖啡</a></h5>
+                                    <span>￥15</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-3">
+                        <div class="wrap-col">
+                            <h3>健康沙拉</h3>
+                            <div class="post">
+                                <img class="img" src="images/7.png"/>
+                                <div class="wrapper">
+                                    <h5><a href="#">蔬菜沙拉</a></h5>
+                                    <span>￥10 - ￥15</span>
+                                </div>
+                            </div>
+                            <div class="post">
+                                <img class="img" src="images/8.png"/>
+                                <div class="wrapper">
+                                    <h5><a href="#">水果沙拉</a></h5>
+                                    <span>￥10 - ￥15</span>
+                                </div>
+                            </div>
+                            <div class="post">
+                                <img class="img" src="images/9.png"/>
+                                <div class="wrapper">
+                                    <h5><a href="#">鸡胸肉沙拉</a></h5>
+                                    <span>￥10 - ￥15</span>
                                 </div>
                             </div>
                         </div>
@@ -116,24 +117,24 @@
                         <div class="wrap-col">
                             <h3>特价套餐</h3>
                             <div class="post">
-                                <a href="#"><img src="images/15.jpg"/></a>
+                                <img class="img" src="images/15.jpg"/>
                                 <div class="wrapper">
-                                    <h5><a href="#">Lorem ipsum dolor</a></h5>
-                                    <span>$25 - $26</span>
+                                    <h5><a href="#">蔬菜披萨</a></h5>
+                                    <span>￥50</span>
                                 </div>
                             </div>
                             <div class="post">
-                                <a href="#"><img src="images/10.jpg"/></a>
+                                <img class="img" src="images/10.jpg"/>
                                 <div class="wrapper">
-                                    <h5><a href="#">Lorem ipsum dolor</a></h5>
-                                    <span>$25 - $26</span>
+                                    <h5><a href="#">肉类套餐</a></h5>
+                                    <span>￥50</span>
                                 </div>
                             </div>
                             <div class="post">
-                                <a href="#"><img src="images/9.jpg"/></a>
+                                <img class="img" src="images/9.jpg"/>
                                 <div class="wrapper">
-                                    <h5><a href="#">Lorem ipsum dolor</a></h5>
-                                    <span>$25 - $26</span>
+                                    <h5><a href="#">提拉米苏</a></h5>
+                                    <span>￥50</span>
                                 </div>
                             </div>
                         </div>
@@ -142,50 +143,50 @@
                         <div class="wrap-col">
                             <h3>快餐</h3>
                             <div class="post">
-                                <a href="#"><img src="images/14.jpg"/></a>
+                                <img class="img" src="images/14.jpg"/>
                                 <div class="wrapper">
-                                    <h5><a href="#">Lorem ipsum dolor</a></h5>
-                                    <span>$25 - $26</span>
+                                    <h5><a href="#">炸鸡扒套餐</a></h5>
+                                    <span>特价 ￥25</span>
                                 </div>
                             </div>
                             <div class="post">
-                                <a href="#"><img src="images/8.jpg"/></a>
+                                <img class="img" src="images/8.jpg"/>
                                 <div class="wrapper">
-                                    <h5><a href="#">Lorem ipsum dolor</a></h5>
-                                    <span>$25 - $26</span>
+                                    <h5><a href="#">鸡肉卷</a></h5>
+                                    <span>特价 ￥25</span>
                                 </div>
                             </div>
                             <div class="post">
-                                <a href="#"><img src="images/7.jpg"/></a>
+                                <img class="img" src="images/7.jpg"/>
                                 <div class="wrapper">
-                                    <h5><a href="#">Lorem ipsum dolor</a></h5>
-                                    <span>$25 - $26</span>
+                                    <h5><a href="#">烤鸡</a></h5>
+                                    <span>特价 ￥30</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-1-3">
                         <div class="wrap-col">
-                            <h3>特色海鲜</h3>
+                            <h3>特色套餐</h3>
                             <div class="post">
-                                <a href="#"><img src="images/13.jpg"/></a>
+                                <img class="img" src="images/13.jpg"/>
                                 <div class="wrapper">
-                                    <h5><a href="#">Lorem ipsum dolor</a></h5>
-                                    <span>$25 - $26</span>
+                                    <h5><a href="#">烤鸡整只</a></h5>
+                                    <span>￥50</span>
                                 </div>
                             </div>
                             <div class="post">
-                                <a href="#"><img src="images/4.jpg"/></a>
+                                <img class="img" src="images/4.jpg"/>
                                 <div class="wrapper">
-                                    <h5><a href="#">Lorem ipsum dolor</a></h5>
-                                    <span>$25 - $26</span>
+                                    <h5><a href="#">汉堡套餐</a></h5>
+                                    <span>￥25</span>
                                 </div>
                             </div>
                             <div class="post">
-                                <a href="#"><img src="images/5.jpg"/></a>
+                                <img class="img" src="images/5.jpg"/>
                                 <div class="wrapper">
-                                    <h5><a href="#">Lorem ipsum dolor</a></h5>
-                                    <span>$25 - $26</span>
+                                    <h5><a href="#">猪腿肉</a></h5>
+                                    <span>￥20</span>
                                 </div>
                             </div>
                         </div>
@@ -197,34 +198,5 @@
 </section>
 <div id="btn">TOP</div>
 </body>
-<script type="text/javascript">
-  $(document).ready(function () {
-    $(".nav li").mouseover(function () {
-      var con = $(this).index();
-      $(".slidebar").css({
-        left: 191.5 * con + "px"
-      });
-    });
-  })
-
-  window.onscroll = function () {
-    var topScroll =document.documentElement.scrollTop || document.body.scrollTop;
-    var topNav = document.getElementById('head-nav');
-    var title = document.getElementById('head-title');
-    var btn = document.getElementById('btn');
-    if(topScroll >= 250){
-      topNav.style.position = "fixed";
-      topNav.style.top = 0;
-      topNav.style.zIndex = "999";
-      btn.style.opacity = "0.8";
-    } else {
-      topNav.style.position = "";
-      btn.style.opacity = 0;
-    }
-  }
-
-  $("#btn").click(function() {
-    $("html,body").animate({scrollTop:0}, 500);
-  });
-</script>
+<script type="text/javascript" src="js/menu.js"></script>
 </html>

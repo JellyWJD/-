@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>美味城镇</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/about.css">
+</head>
+<body onload="init()">
+<div id="head-title">
+    <div class="head-con">
+        <div class="logo">
+            <img src="./images/logo.png">
+            <h2>欢迎来到美食的世界</h2>
+        </div>
+    </div>
+</div>
+<div id="head-nav">
+    <div class="nav">
+        <li style="margin-left: 0"><a href="index.html">Home</a></li>
+        <li><a href="menu.html">美食菜单</a></li>
+        <li><a href="illustration.html">美食图鉴</a></li>
+        <li><a href="about.html">关注我们</a></li>
+        <li><a href="register.html">登录/注册</a></li>
+    </div>
+</div>
+<h1 class="title">惠州经济职业技术学院毕业设计</h1>
+<p class="text">15网络4班 吴家栋个人毕业设计作品</p>
+<p class="text1">美味城镇网站</p>
+
+
+<!-- 创建数据库对象、使用事务进行数据库操作 -->
+<div class="input">
+  <span>用户名：</span>
+  <input type="text" id="name"/>
+  <span>留言：</span>
+  <input type="text" id="text" style="margin-top: 10px" /><br>
+  <input type="button" class="save" value="保存" onclick="saveData()" />
+  <input type="button" class="clean" onclick="delAllData() " value="清空全部">
+  </div>
+<div class="message">
+    <div id="datatable"></div>
+</div>
+
+
+<p id="'msg"></p>
+
+</body>
+<script type="text/javascript" src="js/about.js"></script>
+</html>

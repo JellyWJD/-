@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>美味城镇</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="./css/illustration.css">
     <link rel="stylesheet" href="./css/默认.css">
     <script src="./js/jquery-3.2.1.js"></script>
@@ -19,9 +21,8 @@
     <div class="nav">
         <li style="margin-left: 0"><a href="index.html">Home</a></li>
         <li><a href="menu.html">美食菜单</a></li>
-        <li><a href="post.html">美食帖子</a></li>
         <li><a href="illustration.html">美食图鉴</a></li>
-        <li><a href="">关注我们</a></li>
+        <li><a href="about.html">关注我们</a></li>
         <li><a href="register.html">登录/注册</a></li>
     </div>
 </div>
@@ -55,41 +56,5 @@
     </ul>
 </div>
 </body>
-<script type="text/javascript">
-  window.onload = function() {
-    var oDiv1 = document.getElementById("div1");
-    var oUl = oDiv1.getElementsByTagName("ul")[0];
-    var aLi = oUl.getElementsByTagName("li");
-    var space = -2;
-
-    oUl.innerHTML += oUl.innerHTML;
-    oUl.style.width = aLi[0].offsetWidth * aLi.length + 'px';
-
-    function play() {
-      if(oUl.offsetLeft < -oUl.offsetWidth / 2) {
-        oUl.style.left = '0';
-      }
-      if(oUl.offsetLeft > 0) {
-        oUl.style.left = -oUl.offsetWidth / 2 + 'px';
-        space = 2;
-      }
-      oUl.style.left = oUl.offsetLeft + space + 'px';
-    };
-    var timer = setInterval(play, 30);
-    oDiv1.onmouseover = function() {
-      clearInterval(timer);
-    };
-    oDiv1.onmouseout = function() {
-      timer = setInterval(play, 30);
-    };
-    var oLeft = document.getElementsByTagName("a")[0];
-    var oRidht = document.getElementsByTagName("a")[1];
-    oLeft.onclick = function() {
-      space = -2;
-    }
-    oRidht.onclick = function() {
-      space = 2;
-    }
-  };
-</script>
+<script type="text/javascript" src="js/illustration.js"></script>
 </html>
